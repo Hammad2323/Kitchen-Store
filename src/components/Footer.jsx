@@ -14,10 +14,10 @@ const Footer = () => (
       </p>
       
       <div className="flex justify-center gap-6 mt-4 text-2xl">
-        <a href="https://wa.me/your-number" target="_blank" className="transform transition hover:scale-125 text-green-400 hover:text-green-500">
+        <a href="https://wa.me/447848146969" target="_blank" className="transform transition hover:scale-125 text-green-400 hover:text-green-500">
           <FaWhatsapp />
         </a>
-        <a href="mailto:youremail@example.com" className="transform transition hover:scale-125 text-blue-400 hover:text-blue-500">
+        <a href="mailto:vanguardtravel@outlook.com" className="transform transition hover:scale-125 text-blue-400 hover:text-blue-500">
           <FaEnvelope />
         </a>
       </div>
