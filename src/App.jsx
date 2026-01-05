@@ -4,6 +4,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
+
 
 
 const App = () => {
@@ -18,6 +20,8 @@ return (
 <Route path="/" element={<Home />} />
 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 <Route path="/terms" element={<Terms />} />
+<Route path="/contact" element={<Contact />} />
+
 </Routes>
 </main>
 

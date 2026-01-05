@@ -34,10 +34,12 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex space-x-6 text-base">
-          <NavLink to="/" className={linkClass}>Home</NavLink>
-          <NavLink to="/privacy-policy" className={linkClass}>Privacy Policy</NavLink>
-          <NavLink to="/terms" className={linkClass}>Terms & Conditions</NavLink>
-        </div>
+  <NavLink to="/" className={linkClass}>Home</NavLink>
+  <NavLink to="/privacy-policy" className={linkClass}>Privacy Policy</NavLink>
+  <NavLink to="/terms" className={linkClass}>Terms & Conditions</NavLink>
+  <NavLink to="/contact" className={linkClass}>Contact</NavLink>
+</div>
+
       </div>
 
       {menuOpen && (
@@ -45,6 +47,10 @@ const Navbar = () => {
           <NavLink to="/" className={linkClass} onClick={() => setMenuOpen(false)}>Home</NavLink>
           <NavLink to="/privacy-policy" className={linkClass} onClick={() => setMenuOpen(false)}>Privacy Policy</NavLink>
           <NavLink to="/terms" className={linkClass} onClick={() => setMenuOpen(false)}>Terms & Conditions</NavLink>
+          <NavLink to="/contact" className={linkClass} onClick={() => setMenuOpen(false)}>
+  Contact
+</NavLink>
+
         </div>
       )}
     </nav>
